@@ -95,8 +95,8 @@ public class ISBNHyphenAppender {
             String maxValue = this.rightPad(validPublisherNumbers[i][1],
                     '9', maximumPublisherNumerLength);
 
-            found = (publisherPart.compareTo(minValue) > 0 &&
-                    publisherPart.compareTo(maxValue) < 0);
+            found = (publisherPart.compareTo(minValue) >= 0 &&
+                    publisherPart.compareTo(maxValue) <= 0);
 
             i++;
         }
