@@ -20,7 +20,6 @@
  */
 package net.sourceforge.isbnhyphenappender;
 
-import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -1721,10 +1720,6 @@ public class ISBNHyphenAppenderTest {
                     "99961-999-9-X"};
 
         this.ISBNHyphenAppender = new ISBNHyphenAppender();
-    }
-
-    @After
-    public void tearDown() {
     }
 
     /**
