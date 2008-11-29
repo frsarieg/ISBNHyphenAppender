@@ -32,15 +32,15 @@ public class ISBNHyphenAppender {
     /**
      * Appends hyphens to an ISBN-10 without hyphens.
      * <p>
-     * In an ISBN with hyphens, these hyphens separate the number of the
+     * In an ISBN-10 with hyphens, these hyphens separate the number of the
      * group (similar but no equal to country), the number of the editor, the
      * number of the title and the "checksum" number.
-     * @param ISBN-10 ISBN-10 you want to add the hyphens
+     * @param ISBN-10 ISBN to which hyphens are to be added
      * @return the ISBN-10 with the added hyphens
-     * @throws NullPointerException if the ISBN provided is {@code null}
-     * @throws IllegalArgumentException if the length of the ISBN provided is
+     * @throws NullPointerException if the ISBN-10 provided is {@code null}
+     * @throws IllegalArgumentException if the length of the ISBN-10 provided is
      * not 10
-     * @throws UnsupportedOperationException if the ISBN provided is from a
+     * @throws UnsupportedOperationException if the ISBN-10 provided is from a
      * ISBN group not implemented
      */
     public String appendHyphenToISBN10(String ISBN10) {
@@ -135,9 +135,18 @@ public class ISBNHyphenAppender {
     }
 
     /**
-     *
-     * @param ISBN
-     * @return
+     * Appends hyphens to an ISBN-13 without hyphens.
+     * <p>
+     * In an ISBN-13 with hyphens, these hyphens separate the first three
+     * digits, the number of the group (similar but no equal to country), the
+     * number of the editor, the number of the title and the "checksum" number.
+     * @param ISBN-13 ISBN to which hyphens are to be added
+     * @return the ISBN-13 with the added hyphens
+     * @throws NullPointerException if the ISBN-13 provided is {@code null}
+     * @throws IllegalArgumentException if the length of the ISBN-13 provided is
+     * not 13
+     * @throws UnsupportedOperationException if the ISBN-13 provided is from a
+     * ISBN group not implemented
      */
     public String appendHyphenToISBN13(String ISBN13) {
         if (ISBN13 == null) {
