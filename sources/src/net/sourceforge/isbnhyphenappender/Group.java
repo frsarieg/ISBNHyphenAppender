@@ -23,7 +23,7 @@ package net.sourceforge.isbnhyphenappender;
 /**
  * Represents an ISBN group.
  * <p>
- * Each group is based in the information in
+ * Each group is based in the information on
  * http://www.isbn-international.org/converter/ranges.htm
  * @author Francisco Sariego Rodríguez
  * @version $Revision$ $Date$
