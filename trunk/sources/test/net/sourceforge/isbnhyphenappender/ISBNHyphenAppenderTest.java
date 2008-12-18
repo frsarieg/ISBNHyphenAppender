@@ -1717,7 +1717,13 @@ public class ISBNHyphenAppenderTest {
                     "99961-40-00-X",
                     "99961-89-99-X",
                     "99961-900-0-X",
-                    "99961-999-9-X"};
+                    "99961-999-9-X",
+                    "99962-0-000-X",
+                    "99962-4-999-X",
+                    "99962-50-00-X",
+                    "99962-79-99-X",
+                    "99962-800-0-X",
+                    "99962-999-9-X"};
 
         this.ISBNHyphenAppender = new ISBNHyphenAppender();
     }
