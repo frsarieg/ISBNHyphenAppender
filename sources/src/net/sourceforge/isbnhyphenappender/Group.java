@@ -240,6 +240,12 @@ public enum Group {
 {"50", "99"}
 }, 5),
     /**
+     * Group: 613. Mauritius.
+     */
+    _613(613, new String[][]{
+{"0", "9"}
+}, 1),
+    /**
      * Group: 7. China, People's Republic.
      */
     _7(7, new String[][]{
@@ -1831,12 +1837,10 @@ public enum Group {
 {"50", "79"},
 {"800", "999"}
 }, 3);
-
     /**
      * Number of the group.
      */
     private final int number;
-
     /**
      * Ranges of valid publisher numbers for the group.
      */
