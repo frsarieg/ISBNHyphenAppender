@@ -754,8 +754,9 @@ public enum Group {
      */
     _981(981, new String[][]{
 {"00", "11"},
-{"120", "299"},
-{"3000", "9999"}
+{"1200", "1999"},
+{"200", "289"},
+{"2900", "9999"}
 }, 4),
     /**
      * Group: 982. South Pacific.
@@ -1837,10 +1838,12 @@ public enum Group {
 {"50", "79"},
 {"800", "999"}
 }, 3);
+
     /**
      * Number of the group.
      */
     private final int number;
+
     /**
      * Ranges of valid publisher numbers for the group.
      */
