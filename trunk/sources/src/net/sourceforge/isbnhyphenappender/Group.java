@@ -255,6 +255,15 @@ public enum Group {
 {"95000", "99999"}
 }, 5),
     /**
+     * Group: 615. Hungary.
+     */
+    _615(615, new String[][]{
+{"00", "09"},
+{"100", "499"},
+{"5000", "7999"},
+{"80000", "89999"}
+}, 5),
+    /**
      * Group: 7. China, People's Republic.
      */
     _7(7, new String[][]{
@@ -1854,17 +1863,14 @@ public enum Group {
 {"00", "49"},
 {"500", "999"}
 }, 3);
-
     /**
      * Number of the group.
      */
     private final int number;
-
     /**
      * Ranges of valid publisher numbers for the group.
      */
     private final String[][] validPublisherNumbers;
-
     /**
      * Maximum length of a valid publisher number of the group.
      */
