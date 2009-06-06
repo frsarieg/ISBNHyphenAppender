@@ -286,6 +286,14 @@ public class ISBNHyphenAppenderTest {
                     "614-9499-99-X",
                     "614-95000-0-X",
                     "614-99999-9-X",
+                    "615-00-0000-X",
+                    "615-09-9999-X",
+                    "615-100-000-X",
+                    "615-499-999-X",
+                    "615-5000-00-X",
+                    "615-7999-99-X",
+                    "615-80000-0-X",
+                    "615-89999-9-X",
                     "7-00-000000-X",
                     "7-09-999999-X",
                     "7-100-00000-X",
@@ -1815,7 +1823,6 @@ public class ISBNHyphenAppenderTest {
      */
     @Test
     public void testAppendHyphenToISBN13() {
-        //Check if the method throws the exceptions
         //Checks if the method throws the exceptions
 
         //Checks if the ISBN-13 is null. Must throw a NullPointerException
