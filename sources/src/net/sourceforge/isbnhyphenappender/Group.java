@@ -112,7 +112,8 @@ public enum Group {
 {"91000", "91999"},
 {"9200", "9299"},
 {"93000", "94999"},
-{"9500", "9799"},
+{"9500000", "9500999"},
+{"9501", "9799"},
 {"98000", "98999"},
 {"9900000", "9909999"},
 {"9910", "9999"}
@@ -212,15 +213,6 @@ public enum Group {
 {"95000", "99999"}
 }, 5),
     /**
-     * Group: 610. Thailand.
-     */
-    _610(610, new String[][]{
-{"00", "19"},
-{"200", "699"},
-{"7000", "8999"},
-{"90000", "99999"}
-}, 5),
-    /**
      * Group: 611. Ukraine.
      */
     _611(611, new String[][]{
@@ -262,6 +254,24 @@ public enum Group {
 {"100", "499"},
 {"5000", "7999"},
 {"80000", "89999"}
+}, 5),
+    /**
+     * Group: 616. Thailand.
+     */
+    _616(616, new String[][]{
+{"00", "19"},
+{"200", "699"},
+{"7000", "8999"},
+{"90000", "99999"}
+}, 5),
+    /**
+     * Group: 617. Ukraine.
+     */
+    _617(617, new String[][]{
+{"00", "49"},
+{"500", "699"},
+{"7000", "8999"},
+{"90000", "99999"}
 }, 5),
     /**
      * Group: 7. China, People's Republic.
@@ -1863,14 +1873,17 @@ public enum Group {
 {"00", "49"},
 {"500", "999"}
 }, 3);
+
     /**
      * Number of the group.
      */
     private final int number;
+
     /**
      * Ranges of valid publisher numbers for the group.
      */
     private final String[][] validPublisherNumbers;
+
     /**
      * Maximum length of a valid publisher number of the group.
      */
