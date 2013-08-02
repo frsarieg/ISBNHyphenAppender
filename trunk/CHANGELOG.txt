@@ -5,6 +5,20 @@ ISBN Hyphen Appender - CHANGELOG
 $Id$
 
 ================================
+2013-08-02 VERSION
+================================
+
+* New method appendHyphenToISBN() that unifies appendHyphenToISBN10() and
+  appendHyphenToISBN13(). Supports the 978 and 979 prefixes.
+
+* Marked appendHyphenToISBN10() and appendHyphenToISBN13() as deprecated.
+  Use appendHyphenToISBN() instead.
+
+* Updated the groups information to serial version
+  5a59d1b8-5bb0-401c-a00a-4a3a57697a58 of RangeMessage.xml
+  (2013-08-01T19:44:44).
+
+================================
 2009-06-27 VERSION
 ================================
 
