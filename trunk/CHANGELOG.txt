@@ -5,6 +5,29 @@ ISBN Hyphen Appender - CHANGELOG
 $Id$
 
 ================================
+2013-08-05 VERSION
+================================
+
+* Updated the groups information to serial version
+  36924a56-4e09-4c1d-9bbd-9fb7523975f4 of RangeMessage.xml
+  (2013-08-02T16:18:47).
+
+* Changed the group 978-9942 (Ecuador)
+
+From:
+
+        00 - 89
+       900 - 984
+      9850 - 9999
+
+To:
+
+        00 - 84
+      8500 - 8999
+       900 - 984
+      9850 - 9999
+
+================================
 2013-08-02 VERSION
 ================================
 
