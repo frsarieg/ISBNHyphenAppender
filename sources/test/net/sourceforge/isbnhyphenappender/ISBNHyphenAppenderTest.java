@@ -1163,7 +1163,9 @@ public class ISBNHyphenAppenderTest {
             "978-9941-9000-0-X",
             "978-9941-9999-9-X",
             "978-9942-00-000-X",
-            "978-9942-89-999-X",
+            "978-9942-84-999-X",
+            "978-9942-8500-0-X",
+            "978-9942-8999-9-X",
             "978-9942-900-00-X",
             "978-9942-984-99-X",
             "978-9942-9850-0-X",
@@ -2058,9 +2060,6 @@ public class ISBNHyphenAppenderTest {
             "979-11-94999-99-X",
             "979-11-950000-0-X",
             "979-11-999999-9-X",};
-
-        //Array of well-hyphenated ISBN-13
-        //The checksum number is not well calculed
         this.ISBN10s = new String[]{
             "0-00-000000-X",
             "0-19-999999-X",
@@ -3171,7 +3170,9 @@ public class ISBNHyphenAppenderTest {
             "9941-9000-0-X",
             "9941-9999-9-X",
             "9942-00-000-X",
-            "9942-89-999-X",
+            "9942-84-999-X",
+            "9942-8500-0-X",
+            "9942-8999-9-X",
             "9942-900-00-X",
             "9942-984-99-X",
             "9942-9850-0-X",
@@ -4053,7 +4054,8 @@ public class ISBNHyphenAppenderTest {
     /**
      * Test of {@code appendHyphenToISBN10} method, of class
      * {@code ISBNHyphenAppender}.
-     * @deprecated 
+     *
+     * @deprecated
      */
     @Test
     @Deprecated
@@ -4110,7 +4112,8 @@ public class ISBNHyphenAppenderTest {
     /**
      * Test of {@code appendHyphenToISBN13} method, of class
      * {@code ISBNHyphenAppender}.
-     * @deprecated 
+     *
+     * @deprecated
      */
     @Test
     @Deprecated
