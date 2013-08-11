@@ -5,6 +5,17 @@ ISBN Hyphen Appender - CHANGELOG
 $Id$
 
 ================================
+2013-08-11 VERSION
+================================
+
+* Updated the groups information to serial version
+  7053e091-6d18-4dcf-97f8-c6953cd636fe of RangeMessage.xml
+  (2013-08-09T16:40:17).
+
+* Changed the group 978-602 (Indonesia).
+* Added the group 978-99974 (Bolivia).
+
+================================
 2013-08-05 VERSION
 ================================
 
