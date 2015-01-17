@@ -51,13 +51,13 @@ public class ISBNHyphenAppender {
     public String appendHyphenToISBN10(String ISBN10) {
         //Checks if the ISBN-10 is null
         if (ISBN10 == null) {
-            throw new NullPointerException("The ISBN-10 provided cannot be"
+            throw new NullPointerException("The ISBN provided cannot be"
                     + " null.");
         }
 
         //Checks if the length of the ISBN is 10
         if (ISBN10.length() != 10) {
-            throw new IllegalArgumentException("The ISBN-12 " + ISBN10
+            throw new IllegalArgumentException("The ISBN " + ISBN10
                     + " is not an ISBN-10. The length of the ISBN provided is"
                     + " not 10.");
         }
@@ -85,7 +85,7 @@ public class ISBNHyphenAppender {
     public String appendHyphenToISBN13(String ISBN13) {
         //Checks if the ISBN is null
         if (ISBN13 == null) {
-            throw new NullPointerException("The ISBN-10 provided cannot be"
+            throw new NullPointerException("The ISBN provided cannot be"
                     + " null.");
         }
 
