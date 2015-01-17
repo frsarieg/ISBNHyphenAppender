@@ -1,5 +1,5 @@
 /*
- *   Copyright © 2013 Francisco Sariego Rodríguez
+ *   Copyright © 2015 Francisco Sariego Rodríguez
  *
  *   $Id$
  *
@@ -1432,7 +1432,7 @@ public enum Group {
         {"500", "799"},
         {"80", "99"},}, 3),
     /**
-     * Group: 978-99902. Gabon (reserved)
+     * Group: 978-99902. Reserved Agency
      */
     _97899902(97899902, new String[][]{
         {"0000000", "9999999"},}, 0),
@@ -1784,7 +1784,7 @@ public enum Group {
         {"50", "79"},
         {"800", "999"},}, 3),
     /**
-     * Group: 978-99951. Congo, The Democratic Republic
+     * Group: 978-99951. Reserved Agency
      */
     _97899951(97899951, new String[][]{
         {"0000000", "9999999"},}, 0),

@@ -1,5 +1,5 @@
 /*
- *   Copyright © 2013 Francisco Sariego Rodríguez
+ *   Copyright © 2015 Francisco Sariego Rodríguez
  *
  *   $Id$
  *
