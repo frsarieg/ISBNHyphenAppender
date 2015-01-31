@@ -28,8 +28,7 @@ import org.junit.Test;
  * Tests the {@code ISBNHyphenAppender} class.
  *
  * @author Francisco Sariego Rodríguez
- * @version $Revision$ $Date: 2009-06-27 13:50:37 +0200 (sáb 27 de jun de
- * 2009) $
+ * @version $Revision$ $Id$
  */
 public class ISBNHyphenAppenderTest {
 

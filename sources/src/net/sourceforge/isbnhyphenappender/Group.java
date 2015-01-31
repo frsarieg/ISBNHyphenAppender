@@ -27,8 +27,7 @@ package net.sourceforge.isbnhyphenappender;
  * http://www.isbn-international.org/agency?rmxml=1
  *
  * @author Francisco Sariego Rodríguez
- * @version $Revision$ $Date: 2009-06-27 13:50:37 +0200 (sáb 27 de jun de
- * 2009) $
+ * @version $Revision$ $Id$
  */
 public enum Group {
 
