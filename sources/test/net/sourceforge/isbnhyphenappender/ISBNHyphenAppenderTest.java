@@ -51,7 +51,7 @@ public class ISBNHyphenAppenderTest {
     @Before
     public void setUp() {
         //Array of well-hyphenated ISBN-10
-        //The checksum number is not well calculed
+        //The checksum number is not calculated
         this.ISBN13s = new String[]{
             "978-0-00-000000-X",
             "978-0-19-999999-X",
@@ -4246,7 +4246,7 @@ public class ISBNHyphenAppenderTest {
             Assert.assertEquals(UnsupportedOperationException.class, ex.getClass());
         }
 
-        //Check if the method works well
+        //Check if the method works correctly
         int length = this.ISBN10s.length;
         for (int i = 0; i < length; i++) {
             String ISBN10 = this.ISBN10s[i];
@@ -4323,7 +4323,7 @@ public class ISBNHyphenAppenderTest {
             Assert.assertEquals(UnsupportedOperationException.class, ex.getClass());
         }
 
-        //Check if the method works well
+        //Check if the method works correctly
         int length = this.ISBN13s.length;
         for (int i = 0; i < length; i++) {
             String ISBN13 = this.ISBN13s[i];
@@ -4378,7 +4378,7 @@ public class ISBNHyphenAppenderTest {
             Assert.assertEquals(UnsupportedOperationException.class, ex.getClass());
         }
 
-        //Check if the method works well for ISBN-13
+        //Check if the method works correctly for ISBN-13
         int length = this.ISBN13s.length;
         for (int i = 0; i < length; i++) {
             String ISBN13 = this.ISBN13s[i];
@@ -4387,7 +4387,7 @@ public class ISBNHyphenAppenderTest {
             Assert.assertEquals("Error in conversion of: " + ISBN13, ISBN13, result);
         }
 
-        //Check if the method works well for ISBN-10
+        //Check if the method works correctly for ISBN-10
         length = this.ISBN10s.length;
         for (int i = 0; i < length; i++) {
             String ISBN10 = this.ISBN10s[i];
