@@ -26,8 +26,7 @@ import java.util.Arrays;
  * Appends hyphens to ISBN-10 and ISBN-13 without hyphens.
  *
  * @author Francisco Sariego Rodríguez
- * @version $Revision$ $Date: 2008-11-29 13:30:37 +0100 (sáb 29 de nov de
- * 2008) $
+ * @version $Revision$ $Id$
  */
 public class ISBNHyphenAppender {
 
