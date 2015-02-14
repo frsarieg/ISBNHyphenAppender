@@ -28,7 +28,8 @@ import org.junit.Test;
  * Tests the {@code ISBNHyphenAppender} class.
  *
  * @author Francisco Sariego Rodríguez
- * @version $Revision$ $Id$
+ * @version $Revision$ $Id: ISBNHyphenAppenderTest.java 38 2015-01-31
+ * 14:34:13Z frsarieg $
  */
 public class ISBNHyphenAppenderTest {
 
@@ -196,7 +197,9 @@ public class ISBNHyphenAppenderTest {
             "978-601-85-0000-X",
             "978-601-99-9999-X",
             "978-602-00-0000-X",
-            "978-602-08-9999-X",
+            "978-602-07-9999-X",
+            "978-602-0800-00-X",
+            "978-602-0899-99-X",
             "978-602-0900-00-X",
             "978-602-1099-99-X",
             "978-602-1100-00-X",
@@ -2278,7 +2281,9 @@ public class ISBNHyphenAppenderTest {
             "601-85-0000-X",
             "601-99-9999-X",
             "602-00-0000-X",
-            "602-08-9999-X",
+            "602-07-9999-X",
+            "602-0800-00-X",
+            "602-0899-99-X",
             "602-0900-00-X",
             "602-1099-99-X",
             "602-1100-00-X",
@@ -4192,9 +4197,8 @@ public class ISBNHyphenAppenderTest {
             "99976-20-00-X",
             "99976-59-99-X",
             "99976-600-0-X",
-            "99976-799-9-X",
-        };
-        
+            "99976-799-9-X",};
+
         this.ISBNHyphenAppender = new ISBNHyphenAppender();
     }
 
