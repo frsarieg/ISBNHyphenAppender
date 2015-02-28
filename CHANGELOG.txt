@@ -5,6 +5,37 @@ ISBN Hyphen Appender - CHANGELOG
 $Id$
 
 ================================
+2015-02-28 RELEASE
+================================
+
+* Updated the groups information to serial version
+  0b2e1f2d-1c95-439b-8f93-2f0008d68898 of RangeMessage.xml
+  (Fri, 27 Feb 2015 10:31:08 CET)
+
+* Changed the group for English language (978-1)
+
+From:
+
+        00 - 09
+       100 - 329
+       330 - 399
+      4000 - 5499
+     55000 - 86979
+    869800 - 998999
+   9990000 - 9999999
+
+To:
+
+        00 - 09
+       100 - 399
+      4000 - 5499
+     55000 - 86979
+    869800 - 998999
+   9990000 - 9999999
+
+* Hyphen ("-") instead of dot (".") between group code and name in javadoc
+
+================================
 2015-02-14 RELEASE
 ================================
 
