@@ -25,9 +25,10 @@ package net.sourceforge.isbnhyphenappender;
  * <p>
  * Each group is based in the information on
  * https://www.isbn-international.org/export_rangemessage.xml
- * Updated to: 0b2e1f2d-1c95-439b-8f93-2f0008d68898
- * (Fri, 27 Feb 2015 10:31:08 CET) 
- *
+ * <p>
+ * Updated to: {@code 0b2e1f2d-1c95-439b-8f93-2f0008d68898}
+ * {@code (Fri, 27 Feb 2015 10:31:08 CET)}
+ * @see <a href="https://www.isbn-international.org/export_rangemessage.xml">https://www.isbn-international.org/export_rangemessage.xml</a>
  * @author Francisco Sariego Rodríguez
  * @version $Revision$ $Id$
  */
