@@ -32,7 +32,7 @@ package net.sourceforge.isbnhyphenappender;
 public enum Group {
 
     /**
-     * Group: 978-0. English language
+     * Group: 978-0 - English language.
      */
     _9780(9780, new String[][]{
         {"00", "19"},
@@ -42,7 +42,7 @@ public enum Group {
         {"900000", "949999"},
         {"9500000", "9999999"},}, 7),
     /**
-     * Group: 978-1. English language
+     * Group: 978-1 - English language.
      */
     _9781(9781, new String[][]{
         {"00", "09"},
@@ -52,7 +52,7 @@ public enum Group {
         {"869800", "998999"},
         {"9990000", "9999999"},}, 7),
     /**
-     * Group: 978-2. French language
+     * Group: 978-2 - French language.
      */
     _9782(9782, new String[][]{
         {"00", "19"},
@@ -64,7 +64,7 @@ public enum Group {
         {"900000", "949999"},
         {"9500000", "9999999"},}, 7),
     /**
-     * Group: 978-3. German language
+     * Group: 978-3 - German language.
      */
     _9783(9783, new String[][]{
         {"00", "02"},
@@ -82,7 +82,7 @@ public enum Group {
         {"99000", "99499"},
         {"99500", "99999"},}, 7),
     /**
-     * Group: 978-4. Japan
+     * Group: 978-4 - Japan.
      */
     _9784(9784, new String[][]{
         {"00", "19"},
@@ -92,7 +92,7 @@ public enum Group {
         {"900000", "949999"},
         {"9500000", "9999999"},}, 7),
     /**
-     * Group: 978-5. former U.S.S.R
+     * Group: 978-5 - former U.S.S.R.
      */
     _9785(9785, new String[][]{
         {"00000", "00499"},
@@ -117,7 +117,7 @@ public enum Group {
         {"9900000", "9909999"},
         {"9910", "9999"},}, 7),
     /**
-     * Group: 978-600. Iran
+     * Group: 978-600 - Iran.
      */
     _978600(978600, new String[][]{
         {"00", "09"},
@@ -125,7 +125,7 @@ public enum Group {
         {"5000", "8999"},
         {"90000", "99999"},}, 5),
     /**
-     * Group: 978-601. Kazakhstan
+     * Group: 978-601 - Kazakhstan.
      */
     _978601(978601, new String[][]{
         {"00", "19"},
@@ -134,7 +134,7 @@ public enum Group {
         {"80000", "84999"},
         {"85", "99"},}, 5),
     /**
-     * Group: 978-602. Indonesia
+     * Group: 978-602 - Indonesia.
      */
     _978602(978602, new String[][]{
         {"00", "07"},
@@ -153,7 +153,7 @@ public enum Group {
         {"8000", "9499"},
         {"95000", "99999"},}, 5),
     /**
-     * Group: 978-603. Saudi Arabia
+     * Group: 978-603 - Saudi Arabia.
      */
     _978603(978603, new String[][]{
         {"00", "04"},
@@ -162,7 +162,7 @@ public enum Group {
         {"8000", "8999"},
         {"90000", "99999"},}, 5),
     /**
-     * Group: 978-604. Vietnam
+     * Group: 978-604 - Vietnam.
      */
     _978604(978604, new String[][]{
         {"0", "4"},
@@ -170,7 +170,7 @@ public enum Group {
         {"900", "979"},
         {"9800", "9999"},}, 4),
     /**
-     * Group: 978-605. Turkey
+     * Group: 978-605 - Turkey.
      */
     _978605(978605, new String[][]{
         {"0000000", "0099999"},
@@ -182,7 +182,7 @@ public enum Group {
         {"60000", "89999"},
         {"9000", "9999"},}, 5),
     /**
-     * Group: 978-606. Romania
+     * Group: 978-606 - Romania.
      */
     _978606(978606, new String[][]{
         {"0", "0"},
@@ -191,7 +191,7 @@ public enum Group {
         {"8000", "9199"},
         {"92000", "99999"},}, 5),
     /**
-     * Group: 978-607. Mexico
+     * Group: 978-607 - Mexico.
      */
     _978607(978607, new String[][]{
         {"00", "39"},
@@ -199,7 +199,7 @@ public enum Group {
         {"7500", "9499"},
         {"95000", "99999"},}, 5),
     /**
-     * Group: 978-608. Macedonia
+     * Group: 978-608 - Macedonia.
      */
     _978608(978608, new String[][]{
         {"0", "0"},
@@ -209,7 +209,7 @@ public enum Group {
         {"65000", "69999"},
         {"7", "9"},}, 5),
     /**
-     * Group: 978-609. Lithuania
+     * Group: 978-609 - Lithuania.
      */
     _978609(978609, new String[][]{
         {"00", "39"},
@@ -217,12 +217,12 @@ public enum Group {
         {"8000", "9499"},
         {"95000", "99999"},}, 5),
     /**
-     * Group: 978-611. Thailand
+     * Group: 978-611 - Thailand.
      */
     _978611(978611, new String[][]{
         {"0000000", "9999999"},}, 0),
     /**
-     * Group: 978-612. Peru
+     * Group: 978-612 - Peru.
      */
     _978612(978612, new String[][]{
         {"00", "29"},
@@ -231,12 +231,12 @@ public enum Group {
         {"45000", "49999"},
         {"50", "99"},}, 5),
     /**
-     * Group: 978-613. Mauritius
+     * Group: 978-613 - Mauritius.
      */
     _978613(978613, new String[][]{
         {"0", "9"},}, 1),
     /**
-     * Group: 978-614. Lebanon
+     * Group: 978-614 - Lebanon.
      */
     _978614(978614, new String[][]{
         {"00", "39"},
@@ -244,7 +244,7 @@ public enum Group {
         {"8000", "9499"},
         {"95000", "99999"},}, 5),
     /**
-     * Group: 978-615. Hungary
+     * Group: 978-615 - Hungary.
      */
     _978615(978615, new String[][]{
         {"00", "09"},
@@ -253,7 +253,7 @@ public enum Group {
         {"80000", "89999"},
         {"9000000", "9999999"},}, 5),
     /**
-     * Group: 978-616. Thailand
+     * Group: 978-616 - Thailand.
      */
     _978616(978616, new String[][]{
         {"00", "19"},
@@ -261,7 +261,7 @@ public enum Group {
         {"7000", "8999"},
         {"90000", "99999"},}, 5),
     /**
-     * Group: 978-617. Ukraine
+     * Group: 978-617 - Ukraine.
      */
     _978617(978617, new String[][]{
         {"00", "49"},
@@ -269,7 +269,7 @@ public enum Group {
         {"7000", "8999"},
         {"90000", "99999"},}, 5),
     /**
-     * Group: 978-618. Greece
+     * Group: 978-618 - Greece.
      */
     _978618(978618, new String[][]{
         {"00", "19"},
@@ -277,7 +277,7 @@ public enum Group {
         {"5000", "7999"},
         {"80000", "99999"},}, 5),
     /**
-     * Group: 978-619. Bulgaria
+     * Group: 978-619 - Bulgaria.
      */
     _978619(978619, new String[][]{
         {"00", "14"},
@@ -285,12 +285,12 @@ public enum Group {
         {"7000", "8999"},
         {"90000", "99999"},}, 5),
     /**
-     * Group: 978-620. Mauritius
+     * Group: 978-620 - Mauritius.
      */
     _978620(978620, new String[][]{
         {"0", "9"},}, 1),
     /**
-     * Group: 978-621. Philippines
+     * Group: 978-621 - Philippines.
      */
     _978621(978621, new String[][]{
         {"00", "29"},
@@ -301,7 +301,7 @@ public enum Group {
         {"9000000", "9499999"},
         {"95000", "99999"},}, 5),
     /**
-     * Group: 978-7. China, People's Republic
+     * Group: 978-7 - China, People's Republic.
      */
     _9787(9787, new String[][]{
         {"00", "09"},
@@ -310,7 +310,7 @@ public enum Group {
         {"80000", "89999"},
         {"900000", "999999"},}, 6),
     /**
-     * Group: 978-80. former Czechoslovakia
+     * Group: 978-80 - former Czechoslovakia.
      */
     _97880(97880, new String[][]{
         {"00", "19"},
@@ -319,7 +319,7 @@ public enum Group {
         {"85000", "89999"},
         {"900000", "999999"},}, 6),
     /**
-     * Group: 978-81. India
+     * Group: 978-81 - India.
      */
     _97881(97881, new String[][]{
         {"00", "19"},
@@ -328,7 +328,7 @@ public enum Group {
         {"85000", "89999"},
         {"900000", "999999"},}, 6),
     /**
-     * Group: 978-82. Norway
+     * Group: 978-82 - Norway.
      */
     _97882(97882, new String[][]{
         {"00", "19"},
@@ -338,7 +338,7 @@ public enum Group {
         {"90000", "98999"},
         {"990000", "999999"},}, 6),
     /**
-     * Group: 978-83. Poland
+     * Group: 978-83 - Poland.
      */
     _97883(97883, new String[][]{
         {"00", "19"},
@@ -348,7 +348,7 @@ public enum Group {
         {"85000", "89999"},
         {"900000", "999999"},}, 6),
     /**
-     * Group: 978-84. Spain
+     * Group: 978-84 - Spain.
      */
     _97884(97884, new String[][]{
         {"00", "13"},
@@ -364,7 +364,7 @@ public enum Group {
         {"95000", "96999"},
         {"9700", "9999"},}, 6),
     /**
-     * Group: 978-85. Brazil
+     * Group: 978-85 - Brazil.
      */
     _97885(97885, new String[][]{
         {"00", "19"},
@@ -376,7 +376,7 @@ public enum Group {
         {"900000", "979999"},
         {"98000", "99999"},}, 6),
     /**
-     * Group: 978-86. former Yugoslavia
+     * Group: 978-86 - former Yugoslavia.
      */
     _97886(97886, new String[][]{
         {"00", "29"},
@@ -385,7 +385,7 @@ public enum Group {
         {"80000", "89999"},
         {"900000", "999999"},}, 6),
     /**
-     * Group: 978-87. Denmark
+     * Group: 978-87 - Denmark.
      */
     _97887(97887, new String[][]{
         {"00", "29"},
@@ -398,7 +398,7 @@ public enum Group {
         {"9500000", "9699999"},
         {"970000", "999999"},}, 6),
     /**
-     * Group: 978-88. Italy
+     * Group: 978-88 - Italy.
      */
     _97888(97888, new String[][]{
         {"00", "19"},
@@ -411,7 +411,7 @@ public enum Group {
         {"940000", "949999"},
         {"95000", "99999"},}, 6),
     /**
-     * Group: 978-89. Korea, Republic
+     * Group: 978-89 - Korea, Republic.
      */
     _97889(97889, new String[][]{
         {"00", "24"},
@@ -422,7 +422,7 @@ public enum Group {
         {"97000", "98999"},
         {"990", "999"},}, 6),
     /**
-     * Group: 978-90. Netherlands
+     * Group: 978-90 - Netherlands.
      */
     _97890(97890, new String[][]{
         {"00", "19"},
@@ -436,7 +436,7 @@ public enum Group {
         {"94", "94"},
         {"9500000", "9999999"},}, 6),
     /**
-     * Group: 978-91. Sweden
+     * Group: 978-91 - Sweden.
      */
     _97891(97891, new String[][]{
         {"0", "1"},
@@ -449,7 +449,7 @@ public enum Group {
         {"9500000", "9699999"},
         {"970000", "999999"},}, 6),
     /**
-     * Group: 978-92. International NGO Publishers and EU Organizations
+     * Group: 978-92 - International NGO Publishers and EU Organizations.
      */
     _97892(97892, new String[][]{
         {"0", "5"},
@@ -459,7 +459,7 @@ public enum Group {
         {"95000", "98999"},
         {"990000", "999999"},}, 6),
     /**
-     * Group: 978-93. India
+     * Group: 978-93 - India.
      */
     _97893(97893, new String[][]{
         {"00", "09"},
@@ -468,14 +468,14 @@ public enum Group {
         {"80000", "94999"},
         {"950000", "999999"},}, 6),
     /**
-     * Group: 978-94. Netherlands
+     * Group: 978-94 - Netherlands.
      */
     _97894(97894, new String[][]{
         {"000", "599"},
         {"6000", "8999"},
         {"90000", "99999"},}, 5),
     /**
-     * Group: 978-950. Argentina
+     * Group: 978-950 - Argentina.
      */
     _978950(978950, new String[][]{
         {"00", "49"},
@@ -483,7 +483,7 @@ public enum Group {
         {"9000", "9899"},
         {"99000", "99999"},}, 5),
     /**
-     * Group: 978-951. Finland
+     * Group: 978-951 - Finland.
      */
     _978951(978951, new String[][]{
         {"0", "1"},
@@ -492,7 +492,7 @@ public enum Group {
         {"8900", "9499"},
         {"95000", "99999"},}, 5),
     /**
-     * Group: 978-952. Finland
+     * Group: 978-952 - Finland.
      */
     _978952(978952, new String[][]{
         {"00", "19"},
@@ -506,7 +506,7 @@ public enum Group {
         {"9500", "9899"},
         {"99000", "99999"},}, 5),
     /**
-     * Group: 978-953. Croatia
+     * Group: 978-953 - Croatia.
      */
     _978953(978953, new String[][]{
         {"0", "0"},
@@ -517,7 +517,7 @@ public enum Group {
         {"6000", "9499"},
         {"95000", "99999"},}, 5),
     /**
-     * Group: 978-954. Bulgaria
+     * Group: 978-954 - Bulgaria.
      */
     _978954(978954, new String[][]{
         {"00", "28"},
@@ -527,7 +527,7 @@ public enum Group {
         {"90000", "92999"},
         {"9300", "9999"},}, 5),
     /**
-     * Group: 978-955. Sri Lanka
+     * Group: 978-955 - Sri Lanka.
      */
     _978955(978955, new String[][]{
         {"0000", "1999"},
@@ -541,14 +541,14 @@ public enum Group {
         {"8000", "9499"},
         {"95000", "99999"},}, 5),
     /**
-     * Group: 978-956. Chile
+     * Group: 978-956 - Chile.
      */
     _978956(978956, new String[][]{
         {"00", "19"},
         {"200", "699"},
         {"7000", "9999"},}, 4),
     /**
-     * Group: 978-957. Taiwan
+     * Group: 978-957 - Taiwan.
      */
     _978957(978957, new String[][]{
         {"00", "02"},
@@ -562,7 +562,7 @@ public enum Group {
         {"8200", "9699"},
         {"97000", "99999"},}, 5),
     /**
-     * Group: 978-958. Colombia
+     * Group: 978-958 - Colombia.
      */
     _978958(978958, new String[][]{
         {"00", "56"},
@@ -571,7 +571,7 @@ public enum Group {
         {"8000", "9499"},
         {"95000", "99999"},}, 5),
     /**
-     * Group: 978-959. Cuba
+     * Group: 978-959 - Cuba.
      */
     _978959(978959, new String[][]{
         {"00", "19"},
@@ -579,7 +579,7 @@ public enum Group {
         {"7000", "8499"},
         {"85000", "99999"},}, 5),
     /**
-     * Group: 978-960. Greece
+     * Group: 978-960 - Greece.
      */
     _978960(978960, new String[][]{
         {"00", "19"},
@@ -592,7 +592,7 @@ public enum Group {
         {"9400", "9799"},
         {"98000", "99999"},}, 5),
     /**
-     * Group: 978-961. Slovenia
+     * Group: 978-961 - Slovenia.
      */
     _978961(978961, new String[][]{
         {"00", "19"},
@@ -601,7 +601,7 @@ public enum Group {
         {"90000", "94999"},
         {"9500000", "9999999"},}, 5),
     /**
-     * Group: 978-962. Hong Kong, China
+     * Group: 978-962 - Hong Kong, China.
      */
     _978962(978962, new String[][]{
         {"00", "19"},
@@ -611,7 +611,7 @@ public enum Group {
         {"8700", "8999"},
         {"900", "999"},}, 5),
     /**
-     * Group: 978-963. Hungary
+     * Group: 978-963 - Hungary.
      */
     _978963(978963, new String[][]{
         {"00", "19"},
@@ -620,7 +620,7 @@ public enum Group {
         {"85000", "89999"},
         {"9000", "9999"},}, 5),
     /**
-     * Group: 978-964. Iran
+     * Group: 978-964 - Iran.
      */
     _978964(978964, new String[][]{
         {"00", "14"},
@@ -632,7 +632,7 @@ public enum Group {
         {"970", "989"},
         {"9900", "9999"},}, 5),
     /**
-     * Group: 978-965. Israel
+     * Group: 978-965 - Israel.
      */
     _978965(978965, new String[][]{
         {"00", "19"},
@@ -642,7 +642,7 @@ public enum Group {
         {"8000000", "8999999"},
         {"90000", "99999"},}, 5),
     /**
-     * Group: 978-966. Ukraine
+     * Group: 978-966 - Ukraine.
      */
     _978966(978966, new String[][]{
         {"00", "12"},
@@ -660,7 +660,7 @@ public enum Group {
         {"95000", "97999"},
         {"980", "999"},}, 5),
     /**
-     * Group: 978-967. Malaysia
+     * Group: 978-967 - Malaysia.
      */
     _978967(978967, new String[][]{
         {"00", "00"},
@@ -674,7 +674,7 @@ public enum Group {
         {"9900", "9989"},
         {"99900", "99999"},}, 5),
     /**
-     * Group: 978-968. Mexico
+     * Group: 978-968 - Mexico.
      */
     _978968(978968, new String[][]{
         {"01", "39"},
@@ -683,7 +683,7 @@ public enum Group {
         {"800", "899"},
         {"9000", "9999"},}, 4),
     /**
-     * Group: 978-969. Pakistan
+     * Group: 978-969 - Pakistan.
      */
     _978969(978969, new String[][]{
         {"0", "1"},
@@ -693,7 +693,7 @@ public enum Group {
         {"400", "749"},
         {"7500", "9999"},}, 5),
     /**
-     * Group: 978-970. Mexico
+     * Group: 978-970 - Mexico.
      */
     _978970(978970, new String[][]{
         {"01", "59"},
@@ -702,7 +702,7 @@ public enum Group {
         {"91000", "96999"},
         {"9700", "9999"},}, 5),
     /**
-     * Group: 978-971. Philippines
+     * Group: 978-971 - Philippines.
      */
     _978971(978971, new String[][]{
         {"000", "015"},
@@ -717,7 +717,7 @@ public enum Group {
         {"97", "98"},
         {"9900", "9999"},}, 5),
     /**
-     * Group: 978-972. Portugal
+     * Group: 978-972 - Portugal.
      */
     _978972(978972, new String[][]{
         {"0", "1"},
@@ -726,7 +726,7 @@ public enum Group {
         {"8000", "9499"},
         {"95000", "99999"},}, 5),
     /**
-     * Group: 978-973. Romania
+     * Group: 978-973 - Romania.
      */
     _978973(978973, new String[][]{
         {"0", "0"},
@@ -739,7 +739,7 @@ public enum Group {
         {"8900", "9499"},
         {"95000", "99999"},}, 5),
     /**
-     * Group: 978-974. Thailand
+     * Group: 978-974 - Thailand.
      */
     _978974(978974, new String[][]{
         {"00", "19"},
@@ -749,7 +749,7 @@ public enum Group {
         {"90000", "94999"},
         {"9500", "9999"},}, 5),
     /**
-     * Group: 978-975. Turkey
+     * Group: 978-975 - Turkey.
      */
     _978975(978975, new String[][]{
         {"00000", "01999"},
@@ -759,7 +759,7 @@ public enum Group {
         {"92000", "98999"},
         {"990", "999"},}, 5),
     /**
-     * Group: 978-976. Caribbean Community
+     * Group: 978-976 - Caribbean Community.
      */
     _978976(978976, new String[][]{
         {"0", "3"},
@@ -768,7 +768,7 @@ public enum Group {
         {"8000", "9499"},
         {"95000", "99999"},}, 5),
     /**
-     * Group: 978-977. Egypt
+     * Group: 978-977 - Egypt.
      */
     _978977(978977, new String[][]{
         {"00", "19"},
@@ -778,7 +778,7 @@ public enum Group {
         {"85000", "89999"},
         {"90", "99"},}, 5),
     /**
-     * Group: 978-978. Nigeria
+     * Group: 978-978 - Nigeria.
      */
     _978978(978978, new String[][]{
         {"000", "199"},
@@ -787,7 +787,7 @@ public enum Group {
         {"8000", "8999"},
         {"900", "999"},}, 5),
     /**
-     * Group: 978-979. Indonesia
+     * Group: 978-979 - Indonesia.
      */
     _978979(978979, new String[][]{
         {"000", "099"},
@@ -799,14 +799,14 @@ public enum Group {
         {"8000", "9499"},
         {"95000", "99999"},}, 5),
     /**
-     * Group: 978-980. Venezuela
+     * Group: 978-980 - Venezuela.
      */
     _978980(978980, new String[][]{
         {"00", "19"},
         {"200", "599"},
         {"6000", "9999"},}, 4),
     /**
-     * Group: 978-981. Singapore
+     * Group: 978-981 - Singapore.
      */
     _978981(978981, new String[][]{
         {"00", "11"},
@@ -818,7 +818,7 @@ public enum Group {
         {"310", "399"},
         {"4000", "9999"},}, 5),
     /**
-     * Group: 978-982. South Pacific
+     * Group: 978-982 - South Pacific.
      */
     _978982(978982, new String[][]{
         {"00", "09"},
@@ -827,7 +827,7 @@ public enum Group {
         {"9000", "9799"},
         {"98000", "99999"},}, 5),
     /**
-     * Group: 978-983. Malaysia
+     * Group: 978-983 - Malaysia.
      */
     _978983(978983, new String[][]{
         {"00", "01"},
@@ -840,7 +840,7 @@ public enum Group {
         {"9000", "9899"},
         {"99000", "99999"},}, 5),
     /**
-     * Group: 978-984. Bangladesh
+     * Group: 978-984 - Bangladesh.
      */
     _978984(978984, new String[][]{
         {"00", "39"},
@@ -848,7 +848,7 @@ public enum Group {
         {"8000", "8999"},
         {"90000", "99999"},}, 5),
     /**
-     * Group: 978-985. Belarus
+     * Group: 978-985 - Belarus.
      */
     _978985(978985, new String[][]{
         {"00", "39"},
@@ -856,7 +856,7 @@ public enum Group {
         {"6000", "8999"},
         {"90000", "99999"},}, 5),
     /**
-     * Group: 978-986. Taiwan
+     * Group: 978-986 - Taiwan.
      */
     _978986(978986, new String[][]{
         {"00", "11"},
@@ -864,7 +864,7 @@ public enum Group {
         {"5600", "7999"},
         {"80000", "99999"},}, 5),
     /**
-     * Group: 978-987. Argentina
+     * Group: 978-987 - Argentina.
      */
     _978987(978987, new String[][]{
         {"00", "09"},
@@ -878,7 +878,7 @@ public enum Group {
         {"9000", "9499"},
         {"95000", "99999"},}, 5),
     /**
-     * Group: 978-988. Hong Kong, China
+     * Group: 978-988 - Hong Kong, China.
      */
     _978988(978988, new String[][]{
         {"00", "11"},
@@ -889,7 +889,7 @@ public enum Group {
         {"8000", "9699"},
         {"97000", "99999"},}, 5),
     /**
-     * Group: 978-989. Portugal
+     * Group: 978-989 - Portugal.
      */
     _978989(978989, new String[][]{
         {"0", "1"},
@@ -898,7 +898,7 @@ public enum Group {
         {"8000", "9499"},
         {"95000", "99999"},}, 5),
     /**
-     * Group: 978-9925. Cyprus
+     * Group: 978-9925 - Cyprus.
      */
     _9789925(9789925, new String[][]{
         {"0", "2"},
@@ -906,7 +906,7 @@ public enum Group {
         {"550", "734"},
         {"7350", "9999"},}, 4),
     /**
-     * Group: 978-9926. Bosnia and Herzegovina
+     * Group: 978-9926 - Bosnia and Herzegovina.
      */
     _9789926(9789926, new String[][]{
         {"0", "1"},
@@ -914,7 +914,7 @@ public enum Group {
         {"400", "799"},
         {"8000", "9999"},}, 4),
     /**
-     * Group: 978-9927. Qatar
+     * Group: 978-9927 - Qatar.
      */
     _9789927(9789927, new String[][]{
         {"00", "09"},
@@ -922,7 +922,7 @@ public enum Group {
         {"4000", "4999"},
         {"5000000", "9999999"},}, 4),
     /**
-     * Group: 978-9928. Albania
+     * Group: 978-9928 - Albania.
      */
     _9789928(9789928, new String[][]{
         {"00", "09"},
@@ -930,7 +930,7 @@ public enum Group {
         {"4000", "4999"},
         {"5000000", "9999999"},}, 4),
     /**
-     * Group: 978-9929. Guatemala
+     * Group: 978-9929 - Guatemala.
      */
     _9789929(9789929, new String[][]{
         {"0", "3"},
@@ -938,28 +938,28 @@ public enum Group {
         {"550", "799"},
         {"8000", "9999"},}, 4),
     /**
-     * Group: 978-9930. Costa Rica
+     * Group: 978-9930 - Costa Rica.
      */
     _9789930(9789930, new String[][]{
         {"00", "49"},
         {"500", "939"},
         {"9400", "9999"},}, 4),
     /**
-     * Group: 978-9931. Algeria
+     * Group: 978-9931 - Algeria.
      */
     _9789931(9789931, new String[][]{
         {"00", "29"},
         {"300", "899"},
         {"9000", "9999"},}, 4),
     /**
-     * Group: 978-9932. Lao People's Democratic Republic
+     * Group: 978-9932 - Lao People's Democratic Republic.
      */
     _9789932(9789932, new String[][]{
         {"00", "39"},
         {"400", "849"},
         {"8500", "9999"},}, 4),
     /**
-     * Group: 978-9933. Syria
+     * Group: 978-9933 - Syria.
      */
     _9789933(9789933, new String[][]{
         {"0", "0"},
@@ -967,7 +967,7 @@ public enum Group {
         {"400", "899"},
         {"9000", "9999"},}, 4),
     /**
-     * Group: 978-9934. Latvia
+     * Group: 978-9934 - Latvia.
      */
     _9789934(9789934, new String[][]{
         {"0", "0"},
@@ -975,7 +975,7 @@ public enum Group {
         {"500", "799"},
         {"8000", "9999"},}, 4),
     /**
-     * Group: 978-9935. Iceland
+     * Group: 978-9935 - Iceland.
      */
     _9789935(9789935, new String[][]{
         {"0", "0"},
@@ -983,7 +983,7 @@ public enum Group {
         {"400", "899"},
         {"9000", "9999"},}, 4),
     /**
-     * Group: 978-9936. Afghanistan
+     * Group: 978-9936 - Afghanistan.
      */
     _9789936(9789936, new String[][]{
         {"0", "1"},
@@ -991,7 +991,7 @@ public enum Group {
         {"400", "799"},
         {"8000", "9999"},}, 4),
     /**
-     * Group: 978-9937. Nepal
+     * Group: 978-9937 - Nepal.
      */
     _9789937(9789937, new String[][]{
         {"0", "2"},
@@ -999,14 +999,14 @@ public enum Group {
         {"500", "799"},
         {"8000", "9999"},}, 4),
     /**
-     * Group: 978-9938. Tunisia
+     * Group: 978-9938 - Tunisia.
      */
     _9789938(9789938, new String[][]{
         {"00", "79"},
         {"800", "949"},
         {"9500", "9999"},}, 4),
     /**
-     * Group: 978-9939. Armenia
+     * Group: 978-9939 - Armenia.
      */
     _9789939(9789939, new String[][]{
         {"0", "4"},
@@ -1014,7 +1014,7 @@ public enum Group {
         {"800", "899"},
         {"9000", "9999"},}, 4),
     /**
-     * Group: 978-9940. Montenegro
+     * Group: 978-9940 - Montenegro.
      */
     _9789940(9789940, new String[][]{
         {"0", "1"},
@@ -1022,7 +1022,7 @@ public enum Group {
         {"500", "899"},
         {"9000", "9999"},}, 4),
     /**
-     * Group: 978-9941. Georgia
+     * Group: 978-9941 - Georgia.
      */
     _9789941(9789941, new String[][]{
         {"0", "0"},
@@ -1030,7 +1030,7 @@ public enum Group {
         {"400", "899"},
         {"9000", "9999"},}, 4),
     /**
-     * Group: 978-9942. Ecuador
+     * Group: 978-9942 - Ecuador.
      */
     _9789942(9789942, new String[][]{
         {"00", "84"},
@@ -1038,7 +1038,7 @@ public enum Group {
         {"900", "984"},
         {"9850", "9999"},}, 4),
     /**
-     * Group: 978-9943. Uzbekistan
+     * Group: 978-9943 - Uzbekistan.
      */
     _9789943(9789943, new String[][]{
         {"00", "29"},
@@ -1046,7 +1046,7 @@ public enum Group {
         {"4000", "9749"},
         {"975", "999"},}, 4),
     /**
-     * Group: 978-9944. Turkey
+     * Group: 978-9944 - Turkey.
      */
     _9789944(9789944, new String[][]{
         {"0000", "0999"},
@@ -1057,7 +1057,7 @@ public enum Group {
         {"80", "89"},
         {"900", "999"},}, 4),
     /**
-     * Group: 978-9945. Dominican Republic
+     * Group: 978-9945 - Dominican Republic.
      */
     _9789945(9789945, new String[][]{
         {"00", "00"},
@@ -1068,7 +1068,7 @@ public enum Group {
         {"580", "849"},
         {"8500", "9999"},}, 4),
     /**
-     * Group: 978-9946. Korea, P.D.R.
+     * Group: 978-9946 - Korea, P.D.R..
      */
     _9789946(9789946, new String[][]{
         {"0", "1"},
@@ -1076,21 +1076,21 @@ public enum Group {
         {"400", "899"},
         {"9000", "9999"},}, 4),
     /**
-     * Group: 978-9947. Algeria
+     * Group: 978-9947 - Algeria.
      */
     _9789947(9789947, new String[][]{
         {"0", "1"},
         {"20", "79"},
         {"800", "999"},}, 3),
     /**
-     * Group: 978-9948. United Arab Emirates
+     * Group: 978-9948 - United Arab Emirates.
      */
     _9789948(9789948, new String[][]{
         {"00", "39"},
         {"400", "849"},
         {"8500", "9999"},}, 4),
     /**
-     * Group: 978-9949. Estonia
+     * Group: 978-9949 - Estonia.
      */
     _9789949(9789949, new String[][]{
         {"0", "0"},
@@ -1099,21 +1099,21 @@ public enum Group {
         {"75", "89"},
         {"9000", "9999"},}, 4),
     /**
-     * Group: 978-9950. Palestine
+     * Group: 978-9950 - Palestine.
      */
     _9789950(9789950, new String[][]{
         {"00", "29"},
         {"300", "849"},
         {"8500", "9999"},}, 4),
     /**
-     * Group: 978-9951. Kosova
+     * Group: 978-9951 - Kosova.
      */
     _9789951(9789951, new String[][]{
         {"00", "39"},
         {"400", "849"},
         {"8500", "9999"},}, 4),
     /**
-     * Group: 978-9952. Azerbaijan
+     * Group: 978-9952 - Azerbaijan.
      */
     _9789952(9789952, new String[][]{
         {"0", "1"},
@@ -1121,7 +1121,7 @@ public enum Group {
         {"400", "799"},
         {"8000", "9999"},}, 4),
     /**
-     * Group: 978-9953. Lebanon
+     * Group: 978-9953 - Lebanon.
      */
     _9789953(9789953, new String[][]{
         {"0", "0"},
@@ -1130,7 +1130,7 @@ public enum Group {
         {"60", "89"},
         {"9000", "9999"},}, 4),
     /**
-     * Group: 978-9954. Morocco
+     * Group: 978-9954 - Morocco.
      */
     _9789954(9789954, new String[][]{
         {"0", "1"},
@@ -1138,14 +1138,14 @@ public enum Group {
         {"400", "799"},
         {"8000", "9999"},}, 4),
     /**
-     * Group: 978-9955. Lithuania
+     * Group: 978-9955 - Lithuania.
      */
     _9789955(9789955, new String[][]{
         {"00", "39"},
         {"400", "929"},
         {"9300", "9999"},}, 4),
     /**
-     * Group: 978-9956. Cameroon
+     * Group: 978-9956 - Cameroon.
      */
     _9789956(9789956, new String[][]{
         {"0", "0"},
@@ -1153,7 +1153,7 @@ public enum Group {
         {"400", "899"},
         {"9000", "9999"},}, 4),
     /**
-     * Group: 978-9957. Jordan
+     * Group: 978-9957 - Jordan.
      */
     _9789957(9789957, new String[][]{
         {"00", "39"},
@@ -1162,7 +1162,7 @@ public enum Group {
         {"8500", "8799"},
         {"88", "99"},}, 4),
     /**
-     * Group: 978-9958. Bosnia and Herzegovina
+     * Group: 978-9958 - Bosnia and Herzegovina.
      */
     _9789958(9789958, new String[][]{
         {"00", "01"},
@@ -1176,7 +1176,7 @@ public enum Group {
         {"500", "899"},
         {"9000", "9999"},}, 4),
     /**
-     * Group: 978-9959. Libya
+     * Group: 978-9959 - Libya.
      */
     _9789959(9789959, new String[][]{
         {"0", "1"},
@@ -1186,14 +1186,14 @@ public enum Group {
         {"970", "979"},
         {"98", "99"},}, 4),
     /**
-     * Group: 978-9960. Saudi Arabia
+     * Group: 978-9960 - Saudi Arabia.
      */
     _9789960(9789960, new String[][]{
         {"00", "59"},
         {"600", "899"},
         {"9000", "9999"},}, 4),
     /**
-     * Group: 978-9961. Algeria
+     * Group: 978-9961 - Algeria.
      */
     _9789961(9789961, new String[][]{
         {"0", "2"},
@@ -1201,7 +1201,7 @@ public enum Group {
         {"700", "949"},
         {"9500", "9999"},}, 4),
     /**
-     * Group: 978-9962. Panama
+     * Group: 978-9962 - Panama.
      */
     _9789962(9789962, new String[][]{
         {"00", "54"},
@@ -1210,7 +1210,7 @@ public enum Group {
         {"600", "849"},
         {"8500", "9999"},}, 4),
     /**
-     * Group: 978-9963. Cyprus
+     * Group: 978-9963 - Cyprus.
      */
     _9789963(9789963, new String[][]{
         {"0", "1"},
@@ -1222,21 +1222,21 @@ public enum Group {
         {"7350", "7499"},
         {"7500", "9999"},}, 4),
     /**
-     * Group: 978-9964. Ghana
+     * Group: 978-9964 - Ghana.
      */
     _9789964(9789964, new String[][]{
         {"0", "6"},
         {"70", "94"},
         {"950", "999"},}, 3),
     /**
-     * Group: 978-9965. Kazakhstan
+     * Group: 978-9965 - Kazakhstan.
      */
     _9789965(9789965, new String[][]{
         {"00", "39"},
         {"400", "899"},
         {"9000", "9999"},}, 4),
     /**
-     * Group: 978-9966. Kenya
+     * Group: 978-9966 - Kenya.
      */
     _9789966(9789966, new String[][]{
         {"000", "149"},
@@ -1246,28 +1246,28 @@ public enum Group {
         {"750", "959"},
         {"9600", "9999"},}, 4),
     /**
-     * Group: 978-9967. Kyrgyz Republic
+     * Group: 978-9967 - Kyrgyz Republic.
      */
     _9789967(9789967, new String[][]{
         {"00", "39"},
         {"400", "899"},
         {"9000", "9999"},}, 4),
     /**
-     * Group: 978-9968. Costa Rica
+     * Group: 978-9968 - Costa Rica.
      */
     _9789968(9789968, new String[][]{
         {"00", "49"},
         {"500", "939"},
         {"9400", "9999"},}, 4),
     /**
-     * Group: 978-9970. Uganda
+     * Group: 978-9970 - Uganda.
      */
     _9789970(9789970, new String[][]{
         {"00", "39"},
         {"400", "899"},
         {"9000", "9999"},}, 4),
     /**
-     * Group: 978-9971. Singapore
+     * Group: 978-9971 - Singapore.
      */
     _9789971(9789971, new String[][]{
         {"0", "5"},
@@ -1275,7 +1275,7 @@ public enum Group {
         {"900", "989"},
         {"9900", "9999"},}, 4),
     /**
-     * Group: 978-9972. Peru
+     * Group: 978-9972 - Peru.
      */
     _9789972(9789972, new String[][]{
         {"00", "09"},
@@ -1286,7 +1286,7 @@ public enum Group {
         {"600", "899"},
         {"9000", "9999"},}, 4),
     /**
-     * Group: 978-9973. Tunisia
+     * Group: 978-9973 - Tunisia.
      */
     _9789973(9789973, new String[][]{
         {"00", "05"},
@@ -1296,7 +1296,7 @@ public enum Group {
         {"700", "969"},
         {"9700", "9999"},}, 4),
     /**
-     * Group: 978-9974. Uruguay
+     * Group: 978-9974 - Uruguay.
      */
     _9789974(9789974, new String[][]{
         {"0", "2"},
@@ -1305,7 +1305,7 @@ public enum Group {
         {"7500", "9499"},
         {"95", "99"},}, 4),
     /**
-     * Group: 978-9975. Moldova
+     * Group: 978-9975 - Moldova.
      */
     _9789975(9789975, new String[][]{
         {"0", "0"},
@@ -1316,7 +1316,7 @@ public enum Group {
         {"900", "949"},
         {"9500", "9999"},}, 4),
     /**
-     * Group: 978-9976. Tanzania
+     * Group: 978-9976 - Tanzania.
      */
     _9789976(9789976, new String[][]{
         {"0", "5"},
@@ -1324,14 +1324,14 @@ public enum Group {
         {"900", "989"},
         {"9900", "9999"},}, 4),
     /**
-     * Group: 978-9977. Costa Rica
+     * Group: 978-9977 - Costa Rica.
      */
     _9789977(9789977, new String[][]{
         {"00", "89"},
         {"900", "989"},
         {"9900", "9999"},}, 4),
     /**
-     * Group: 978-9978. Ecuador
+     * Group: 978-9978 - Ecuador.
      */
     _9789978(9789978, new String[][]{
         {"00", "29"},
@@ -1340,7 +1340,7 @@ public enum Group {
         {"950", "989"},
         {"9900", "9999"},}, 4),
     /**
-     * Group: 978-9979. Iceland
+     * Group: 978-9979 - Iceland.
      */
     _9789979(9789979, new String[][]{
         {"0", "4"},
@@ -1350,7 +1350,7 @@ public enum Group {
         {"760", "899"},
         {"9000", "9999"},}, 4),
     /**
-     * Group: 978-9980. Papua New Guinea
+     * Group: 978-9980 - Papua New Guinea.
      */
     _9789980(9789980, new String[][]{
         {"0", "3"},
@@ -1358,7 +1358,7 @@ public enum Group {
         {"900", "989"},
         {"9900", "9999"},}, 4),
     /**
-     * Group: 978-9981. Morocco
+     * Group: 978-9981 - Morocco.
      */
     _9789981(9789981, new String[][]{
         {"00", "09"},
@@ -1368,14 +1368,14 @@ public enum Group {
         {"800", "949"},
         {"9500", "9999"},}, 4),
     /**
-     * Group: 978-9982. Zambia
+     * Group: 978-9982 - Zambia.
      */
     _9789982(9789982, new String[][]{
         {"00", "79"},
         {"800", "989"},
         {"9900", "9999"},}, 4),
     /**
-     * Group: 978-9983. Gambia
+     * Group: 978-9983 - Gambia.
      */
     _9789983(9789983, new String[][]{
         {"0000000", "7999999"},
@@ -1383,14 +1383,14 @@ public enum Group {
         {"950", "989"},
         {"9900", "9999"},}, 4),
     /**
-     * Group: 978-9984. Latvia
+     * Group: 978-9984 - Latvia.
      */
     _9789984(9789984, new String[][]{
         {"00", "49"},
         {"500", "899"},
         {"9000", "9999"},}, 4),
     /**
-     * Group: 978-9985. Estonia
+     * Group: 978-9985 - Estonia.
      */
     _9789985(9789985, new String[][]{
         {"0", "4"},
@@ -1398,7 +1398,7 @@ public enum Group {
         {"800", "899"},
         {"9000", "9999"},}, 4),
     /**
-     * Group: 978-9986. Lithuania
+     * Group: 978-9986 - Lithuania.
      */
     _9789986(9789986, new String[][]{
         {"00", "39"},
@@ -1407,14 +1407,14 @@ public enum Group {
         {"940", "969"},
         {"97", "99"},}, 4),
     /**
-     * Group: 978-9987. Tanzania
+     * Group: 978-9987 - Tanzania.
      */
     _9789987(9789987, new String[][]{
         {"00", "39"},
         {"400", "879"},
         {"8800", "9999"},}, 4),
     /**
-     * Group: 978-9988. Ghana
+     * Group: 978-9988 - Ghana.
      */
     _9789988(9789988, new String[][]{
         {"0", "2"},
@@ -1422,7 +1422,7 @@ public enum Group {
         {"550", "749"},
         {"7500", "9999"},}, 4),
     /**
-     * Group: 978-9989. Macedonia
+     * Group: 978-9989 - Macedonia.
      */
     _9789989(9789989, new String[][]{
         {"0", "0"},
@@ -1432,40 +1432,40 @@ public enum Group {
         {"600", "949"},
         {"9500", "9999"},}, 4),
     /**
-     * Group: 978-99901. Bahrain
+     * Group: 978-99901 - Bahrain.
      */
     _97899901(97899901, new String[][]{
         {"00", "49"},
         {"500", "799"},
         {"80", "99"},}, 3),
     /**
-     * Group: 978-99902. Reserved Agency
+     * Group: 978-99902 - Reserved Agency.
      */
     _97899902(97899902, new String[][]{
         {"0000000", "9999999"},}, 0),
     /**
-     * Group: 978-99903. Mauritius
+     * Group: 978-99903 - Mauritius.
      */
     _97899903(97899903, new String[][]{
         {"0", "1"},
         {"20", "89"},
         {"900", "999"},}, 3),
     /**
-     * Group: 978-99904. Curaçao
+     * Group: 978-99904 - Curaçao.
      */
     _97899904(97899904, new String[][]{
         {"0", "5"},
         {"60", "89"},
         {"900", "999"},}, 3),
     /**
-     * Group: 978-99905. Bolivia
+     * Group: 978-99905 - Bolivia.
      */
     _97899905(97899905, new String[][]{
         {"0", "3"},
         {"40", "79"},
         {"800", "999"},}, 3),
     /**
-     * Group: 978-99906. Kuwait
+     * Group: 978-99906 - Kuwait.
      */
     _97899906(97899906, new String[][]{
         {"0", "2"},
@@ -1475,34 +1475,34 @@ public enum Group {
         {"90", "94"},
         {"950", "999"},}, 3),
     /**
-     * Group: 978-99908. Malawi
+     * Group: 978-99908 - Malawi.
      */
     _97899908(97899908, new String[][]{
         {"0", "0"},
         {"10", "89"},
         {"900", "999"},}, 3),
     /**
-     * Group: 978-99909. Malta
+     * Group: 978-99909 - Malta.
      */
     _97899909(97899909, new String[][]{
         {"0", "3"},
         {"40", "94"},
         {"950", "999"},}, 3),
     /**
-     * Group: 978-99910. Sierra Leone
+     * Group: 978-99910 - Sierra Leone.
      */
     _97899910(97899910, new String[][]{
         {"0", "2"},
         {"30", "89"},
         {"900", "999"},}, 3),
     /**
-     * Group: 978-99911. Lesotho
+     * Group: 978-99911 - Lesotho.
      */
     _97899911(97899911, new String[][]{
         {"00", "59"},
         {"600", "999"},}, 3),
     /**
-     * Group: 978-99912. Botswana
+     * Group: 978-99912 - Botswana.
      */
     _97899912(97899912, new String[][]{
         {"0", "3"},
@@ -1510,7 +1510,7 @@ public enum Group {
         {"60", "89"},
         {"900", "999"},}, 3),
     /**
-     * Group: 978-99913. Andorra
+     * Group: 978-99913 - Andorra.
      */
     _97899913(97899913, new String[][]{
         {"0", "2"},
@@ -1519,42 +1519,42 @@ public enum Group {
         {"600", "604"},
         {"6050000", "9999999"},}, 3),
     /**
-     * Group: 978-99914. Suriname
+     * Group: 978-99914 - Suriname.
      */
     _97899914(97899914, new String[][]{
         {"0", "4"},
         {"50", "89"},
         {"900", "999"},}, 3),
     /**
-     * Group: 978-99915. Maldives
+     * Group: 978-99915 - Maldives.
      */
     _97899915(97899915, new String[][]{
         {"0", "4"},
         {"50", "79"},
         {"800", "999"},}, 3),
     /**
-     * Group: 978-99916. Namibia
+     * Group: 978-99916 - Namibia.
      */
     _97899916(97899916, new String[][]{
         {"0", "2"},
         {"30", "69"},
         {"700", "999"},}, 3),
     /**
-     * Group: 978-99917. Brunei Darussalam
+     * Group: 978-99917 - Brunei Darussalam.
      */
     _97899917(97899917, new String[][]{
         {"0", "2"},
         {"30", "89"},
         {"900", "999"},}, 3),
     /**
-     * Group: 978-99918. Faroe Islands
+     * Group: 978-99918 - Faroe Islands.
      */
     _97899918(97899918, new String[][]{
         {"0", "3"},
         {"40", "79"},
         {"800", "999"},}, 3),
     /**
-     * Group: 978-99919. Benin
+     * Group: 978-99919 - Benin.
      */
     _97899919(97899919, new String[][]{
         {"0", "2"},
@@ -1565,14 +1565,14 @@ public enum Group {
         {"850", "899"},
         {"900", "999"},}, 3),
     /**
-     * Group: 978-99920. Andorra
+     * Group: 978-99920 - Andorra.
      */
     _97899920(97899920, new String[][]{
         {"0", "4"},
         {"50", "89"},
         {"900", "999"},}, 3),
     /**
-     * Group: 978-99921. Qatar
+     * Group: 978-99921 - Qatar.
      */
     _97899921(97899921, new String[][]{
         {"0", "1"},
@@ -1581,35 +1581,35 @@ public enum Group {
         {"8", "8"},
         {"90", "99"},}, 3),
     /**
-     * Group: 978-99922. Guatemala
+     * Group: 978-99922 - Guatemala.
      */
     _97899922(97899922, new String[][]{
         {"0", "3"},
         {"40", "69"},
         {"700", "999"},}, 3),
     /**
-     * Group: 978-99923. El Salvador
+     * Group: 978-99923 - El Salvador.
      */
     _97899923(97899923, new String[][]{
         {"0", "1"},
         {"20", "79"},
         {"800", "999"},}, 3),
     /**
-     * Group: 978-99924. Nicaragua
+     * Group: 978-99924 - Nicaragua.
      */
     _97899924(97899924, new String[][]{
         {"0", "1"},
         {"20", "79"},
         {"800", "999"},}, 3),
     /**
-     * Group: 978-99925. Paraguay
+     * Group: 978-99925 - Paraguay.
      */
     _97899925(97899925, new String[][]{
         {"0", "3"},
         {"40", "79"},
         {"800", "999"},}, 3),
     /**
-     * Group: 978-99926. Honduras
+     * Group: 978-99926 - Honduras.
      */
     _97899926(97899926, new String[][]{
         {"0", "0"},
@@ -1618,42 +1618,42 @@ public enum Group {
         {"87", "89"},
         {"90", "99"},}, 3),
     /**
-     * Group: 978-99927. Albania
+     * Group: 978-99927 - Albania.
      */
     _97899927(97899927, new String[][]{
         {"0", "2"},
         {"30", "59"},
         {"600", "999"},}, 3),
     /**
-     * Group: 978-99928. Georgia
+     * Group: 978-99928 - Georgia.
      */
     _97899928(97899928, new String[][]{
         {"0", "0"},
         {"10", "79"},
         {"800", "999"},}, 3),
     /**
-     * Group: 978-99929. Mongolia
+     * Group: 978-99929 - Mongolia.
      */
     _97899929(97899929, new String[][]{
         {"0", "4"},
         {"50", "79"},
         {"800", "999"},}, 3),
     /**
-     * Group: 978-99930. Armenia
+     * Group: 978-99930 - Armenia.
      */
     _97899930(97899930, new String[][]{
         {"0", "4"},
         {"50", "79"},
         {"800", "999"},}, 3),
     /**
-     * Group: 978-99931. Seychelles
+     * Group: 978-99931 - Seychelles.
      */
     _97899931(97899931, new String[][]{
         {"0", "4"},
         {"50", "79"},
         {"800", "999"},}, 3),
     /**
-     * Group: 978-99932. Malta
+     * Group: 978-99932 - Malta.
      */
     _97899932(97899932, new String[][]{
         {"0", "0"},
@@ -1662,21 +1662,21 @@ public enum Group {
         {"7", "7"},
         {"80", "99"},}, 3),
     /**
-     * Group: 978-99933. Nepal
+     * Group: 978-99933 - Nepal.
      */
     _97899933(97899933, new String[][]{
         {"0", "2"},
         {"30", "59"},
         {"600", "999"},}, 3),
     /**
-     * Group: 978-99934. Dominican Republic
+     * Group: 978-99934 - Dominican Republic.
      */
     _97899934(97899934, new String[][]{
         {"0", "1"},
         {"20", "79"},
         {"800", "999"},}, 3),
     /**
-     * Group: 978-99935. Haiti
+     * Group: 978-99935 - Haiti.
      */
     _97899935(97899935, new String[][]{
         {"0", "2"},
@@ -1685,21 +1685,21 @@ public enum Group {
         {"7", "8"},
         {"90", "99"},}, 3),
     /**
-     * Group: 978-99936. Bhutan
+     * Group: 978-99936 - Bhutan.
      */
     _97899936(97899936, new String[][]{
         {"0", "0"},
         {"10", "59"},
         {"600", "999"},}, 3),
     /**
-     * Group: 978-99937. Macau
+     * Group: 978-99937 - Macau.
      */
     _97899937(97899937, new String[][]{
         {"0", "1"},
         {"20", "59"},
         {"600", "999"},}, 3),
     /**
-     * Group: 978-99938. Srpska, Republic of
+     * Group: 978-99938 - Srpska, Republic of.
      */
     _97899938(97899938, new String[][]{
         {"0", "1"},
@@ -1707,103 +1707,103 @@ public enum Group {
         {"600", "899"},
         {"90", "99"},}, 3),
     /**
-     * Group: 978-99939. Guatemala
+     * Group: 978-99939 - Guatemala.
      */
     _97899939(97899939, new String[][]{
         {"0", "5"},
         {"60", "89"},
         {"900", "999"},}, 3),
     /**
-     * Group: 978-99940. Georgia
+     * Group: 978-99940 - Georgia.
      */
     _97899940(97899940, new String[][]{
         {"0", "0"},
         {"10", "69"},
         {"700", "999"},}, 3),
     /**
-     * Group: 978-99941. Armenia
+     * Group: 978-99941 - Armenia.
      */
     _97899941(97899941, new String[][]{
         {"0", "2"},
         {"30", "79"},
         {"800", "999"},}, 3),
     /**
-     * Group: 978-99942. Sudan
+     * Group: 978-99942 - Sudan.
      */
     _97899942(97899942, new String[][]{
         {"0", "4"},
         {"50", "79"},
         {"800", "999"},}, 3),
     /**
-     * Group: 978-99943. Albania
+     * Group: 978-99943 - Albania.
      */
     _97899943(97899943, new String[][]{
         {"0", "2"},
         {"30", "59"},
         {"600", "999"},}, 3),
     /**
-     * Group: 978-99944. Ethiopia
+     * Group: 978-99944 - Ethiopia.
      */
     _97899944(97899944, new String[][]{
         {"0", "4"},
         {"50", "79"},
         {"800", "999"},}, 3),
     /**
-     * Group: 978-99945. Namibia
+     * Group: 978-99945 - Namibia.
      */
     _97899945(97899945, new String[][]{
         {"0", "5"},
         {"60", "89"},
         {"900", "999"},}, 3),
     /**
-     * Group: 978-99946. Nepal
+     * Group: 978-99946 - Nepal.
      */
     _97899946(97899946, new String[][]{
         {"0", "2"},
         {"30", "59"},
         {"600", "999"},}, 3),
     /**
-     * Group: 978-99947. Tajikistan
+     * Group: 978-99947 - Tajikistan.
      */
     _97899947(97899947, new String[][]{
         {"0", "2"},
         {"30", "69"},
         {"700", "999"},}, 3),
     /**
-     * Group: 978-99948. Eritrea
+     * Group: 978-99948 - Eritrea.
      */
     _97899948(97899948, new String[][]{
         {"0", "4"},
         {"50", "79"},
         {"800", "999"},}, 3),
     /**
-     * Group: 978-99949. Mauritius
+     * Group: 978-99949 - Mauritius.
      */
     _97899949(97899949, new String[][]{
         {"0", "1"},
         {"20", "89"},
         {"900", "999"},}, 3),
     /**
-     * Group: 978-99950. Cambodia
+     * Group: 978-99950 - Cambodia.
      */
     _97899950(97899950, new String[][]{
         {"0", "4"},
         {"50", "79"},
         {"800", "999"},}, 3),
     /**
-     * Group: 978-99951. Reserved Agency
+     * Group: 978-99951 - Reserved Agency.
      */
     _97899951(97899951, new String[][]{
         {"0000000", "9999999"},}, 0),
     /**
-     * Group: 978-99952. Mali
+     * Group: 978-99952 - Mali.
      */
     _97899952(97899952, new String[][]{
         {"0", "4"},
         {"50", "79"},
         {"800", "999"},}, 3),
     /**
-     * Group: 978-99953. Paraguay
+     * Group: 978-99953 - Paraguay.
      */
     _97899953(97899953, new String[][]{
         {"0", "2"},
@@ -1811,7 +1811,7 @@ public enum Group {
         {"800", "939"},
         {"94", "99"},}, 3),
     /**
-     * Group: 978-99954. Bolivia
+     * Group: 978-99954 - Bolivia.
      */
     _97899954(97899954, new String[][]{
         {"0", "2"},
@@ -1819,7 +1819,7 @@ public enum Group {
         {"700", "879"},
         {"88", "99"},}, 3),
     /**
-     * Group: 978-99955. Srpska, Republic of
+     * Group: 978-99955 - Srpska, Republic of.
      */
     _97899955(97899955, new String[][]{
         {"0", "1"},
@@ -1827,21 +1827,21 @@ public enum Group {
         {"600", "799"},
         {"80", "99"},}, 3),
     /**
-     * Group: 978-99956. Albania
+     * Group: 978-99956 - Albania.
      */
     _97899956(97899956, new String[][]{
         {"00", "59"},
         {"600", "859"},
         {"86", "99"},}, 3),
     /**
-     * Group: 978-99957. Malta
+     * Group: 978-99957 - Malta.
      */
     _97899957(97899957, new String[][]{
         {"0", "1"},
         {"20", "79"},
         {"800", "999"},}, 3),
     /**
-     * Group: 978-99958. Bahrain
+     * Group: 978-99958 - Bahrain.
      */
     _97899958(97899958, new String[][]{
         {"0", "4"},
@@ -1849,56 +1849,56 @@ public enum Group {
         {"940", "949"},
         {"950", "999"},}, 3),
     /**
-     * Group: 978-99959. Luxembourg
+     * Group: 978-99959 - Luxembourg.
      */
     _97899959(97899959, new String[][]{
         {"0", "2"},
         {"30", "59"},
         {"600", "999"},}, 3),
     /**
-     * Group: 978-99960. Malawi
+     * Group: 978-99960 - Malawi.
      */
     _97899960(97899960, new String[][]{
         {"0", "0"},
         {"10", "94"},
         {"950", "999"},}, 3),
     /**
-     * Group: 978-99961. El Salvador
+     * Group: 978-99961 - El Salvador.
      */
     _97899961(97899961, new String[][]{
         {"0", "3"},
         {"40", "89"},
         {"900", "999"},}, 3),
     /**
-     * Group: 978-99962. Mongolia
+     * Group: 978-99962 - Mongolia.
      */
     _97899962(97899962, new String[][]{
         {"0", "4"},
         {"50", "79"},
         {"800", "999"},}, 3),
     /**
-     * Group: 978-99963. Cambodia
+     * Group: 978-99963 - Cambodia.
      */
     _97899963(97899963, new String[][]{
         {"00", "49"},
         {"500", "919"},
         {"92", "99"},}, 3),
     /**
-     * Group: 978-99964. Nicaragua
+     * Group: 978-99964 - Nicaragua.
      */
     _97899964(97899964, new String[][]{
         {"0", "1"},
         {"20", "79"},
         {"800", "999"},}, 3),
     /**
-     * Group: 978-99965. Macau
+     * Group: 978-99965 - Macau.
      */
     _97899965(97899965, new String[][]{
         {"0", "3"},
         {"40", "69"},
         {"700", "999"},}, 3),
     /**
-     * Group: 978-99966. Kuwait
+     * Group: 978-99966 - Kuwait.
      */
     _97899966(97899966, new String[][]{
         {"0", "2"},
@@ -1907,7 +1907,7 @@ public enum Group {
         {"80", "94"},
         {"9500000", "9999999"},}, 3),
     /**
-     * Group: 978-99967. Paraguay
+     * Group: 978-99967 - Paraguay.
      */
     _97899967(97899967, new String[][]{
         {"0", "1"},
@@ -1915,7 +1915,7 @@ public enum Group {
         {"600", "899"},
         {"9000000", "9999999"},}, 3),
     /**
-     * Group: 978-99968. Botswana
+     * Group: 978-99968 - Botswana.
      */
     _97899968(97899968, new String[][]{
         {"0", "3"},
@@ -1923,56 +1923,56 @@ public enum Group {
         {"60", "89"},
         {"900", "999"},}, 3),
     /**
-     * Group: 978-99969. Oman
+     * Group: 978-99969 - Oman.
      */
     _97899969(97899969, new String[][]{
         {"0", "4"},
         {"50", "79"},
         {"800", "999"},}, 3),
     /**
-     * Group: 978-99970. Haiti
+     * Group: 978-99970 - Haiti.
      */
     _97899970(97899970, new String[][]{
         {"0", "4"},
         {"50", "89"},
         {"900", "999"},}, 3),
     /**
-     * Group: 978-99971. Myanmar
+     * Group: 978-99971 - Myanmar.
      */
     _97899971(97899971, new String[][]{
         {"0", "5"},
         {"60", "84"},
         {"850", "999"},}, 3),
     /**
-     * Group: 978-99972. Faroe Islands
+     * Group: 978-99972 - Faroe Islands.
      */
     _97899972(97899972, new String[][]{
         {"0", "4"},
         {"50", "89"},
         {"900", "999"},}, 3),
     /**
-     * Group: 978-99973. Mongolia
+     * Group: 978-99973 - Mongolia.
      */
     _97899973(97899973, new String[][]{
         {"0", "3"},
         {"40", "79"},
         {"800", "999"},}, 3),
     /**
-     * Group: 978-99974. Bolivia
+     * Group: 978-99974 - Bolivia.
      */
     _97899974(97899974, new String[][]{
         {"0000000", "3999999"},
         {"40", "79"},
         {"800", "999"},}, 3),
     /**
-     * Group: 978-99975. Tajikistan
+     * Group: 978-99975 - Tajikistan.
      */
     _97899975(97899975, new String[][]{
         {"0", "3"},
         {"40", "79"},
         {"800", "999"},}, 3),
     /**
-     * Group: 978-99976. Srpska, Republic of
+     * Group: 978-99976 - Srpska, Republic of.
      */
     _97899976(97899976, new String[][]{
         {"0", "1"},
@@ -1980,7 +1980,7 @@ public enum Group {
         {"600", "799"},
         {"8000000", "9999999"},}, 3),
     /**
-     * Group: 979-10. France
+     * Group: 979-10 - France.
      */
     _97910(97910, new String[][]{
         {"00", "19"},
@@ -1989,7 +1989,7 @@ public enum Group {
         {"90000", "97599"},
         {"976000", "999999"},}, 6),
     /**
-     * Group: 979-11. Korea, Republic
+     * Group: 979-11 - Korea, Republic.
      */
     _97911(97911, new String[][]{
         {"00", "24"},
@@ -1998,7 +1998,7 @@ public enum Group {
         {"85000", "94999"},
         {"950000", "999999"},}, 6),
     /**
-     * Group: 979-12. Italy
+     * Group: 979-12 - Italy.
      */
     _97912(97912, new String[][]{
         {"0000000", "1999999"},
