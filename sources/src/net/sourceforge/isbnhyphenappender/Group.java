@@ -26,8 +26,8 @@ package net.sourceforge.isbnhyphenappender;
  * Each group is based in the information on
  * https://www.isbn-international.org/export_rangemessage.xml
  * <p>
- * Updated to: {@code 0b2e1f2d-1c95-439b-8f93-2f0008d68898}
- * {@code (Fri, 27 Feb 2015 10:31:08 CET)}
+ * Updated to: {@code 1df47d34-8016-4c00-bfaa-4dec3e913c2b}
+ * {@code (Wed, 4 Mar 2015 17:27:14 CET)}
  * @see <a href="https://www.isbn-international.org/export_rangemessage.xml">https://www.isbn-international.org/export_rangemessage.xml</a>
  * @author Francisco Sariego Rodríguez
  * @version $Revision$ $Id$
@@ -1683,6 +1683,25 @@ public enum Group {
         {"550", "799"},
         {"8000", "9499"},
         {"95000", "99999"},}, 5),
+    /**
+     * Group: 978-9924 - Cambodia.
+     * <p>
+     * Valid publisher ranges: <pre>
+     * "0000000" - "2999999"
+     *      "30" - "39"
+     * "4000000" - "4999999"
+     *     "500" - "649"
+     * "6500000" - "8999999"
+     *    "9000" - "9999"</pre>
+     * Maximum length: 4
+     */
+    _9789924(9789924, new String[][]{
+        {"0000000", "2999999"},
+        {"30", "39"},
+        {"4000000", "4999999"},
+        {"500", "649"},
+        {"6500000", "8999999"},
+        {"9000", "9999"},}, 4),
     /**
      * Group: 978-9925 - Cyprus.
      * <p>
