@@ -5,6 +5,14 @@ ISBN Hyphen Appender - CHANGELOG
 $Id$
 
 ================================
+2016-03-20 RELEASE
+================================
+
+* Updated the groups information to serial version
+  3a9e9271-089c-4726-807e-332336cc4315 of RangeMessage.xml
+  (Tue, 8 Mar 2016 17:35:37 CET)
+
+================================
 2015-08-30 RELEASE
 ================================
 
