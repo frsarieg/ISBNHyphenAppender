@@ -1,8 +1,6 @@
 /*
  *   Copyright © 2015 Francisco Sariego Rodríguez
  *
- *   $Id$
- *
  *   This file is part of ISBNHyphenAppender.
  *
  *   ISBNHyphenAppender is free software: you can redistribute it and/or modify
@@ -32,7 +30,7 @@ package net.sourceforge.isbnhyphenappender;
  * @see
  * <a href="https://www.isbn-international.org/export_rangemessage.xml">https://www.isbn-international.org/export_rangemessage.xml</a>
  * @author Francisco Sariego Rodríguez
- * @version $Revision$ $Id$
+ * @version 1.0.0-20171031
  */
 public enum Group {
 

@@ -1,8 +1,6 @@
 /*
  *   Copyright © 2015 Francisco Sariego Rodríguez
  *
- *   $Id$
- *
  *   This file is part of ISBNHyphenAppender.
  *
  *   ISBNHyphenAppender is free software: you can redistribute it and/or modify
@@ -31,8 +29,7 @@ import org.junit.Test;
  * {@code (Tue, 31 Oct 2017 18:12:28 CET)}
  *
  * @author Francisco Sariego Rodríguez
- * @version $Revision$ $Id: ISBNHyphenAppenderTest.java 38 2015-01-31
- * 14:34:13Z frsarieg $
+ * @version 1.0.0-20171031
  */
 public class ISBNHyphenAppenderTest {
 

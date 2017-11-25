@@ -1,8 +1,6 @@
 /*
  *   Copyright © 2015 Francisco Sariego Rodríguez
  *
- *   $Id$
- *
  *   This file is part of ISBNHyphenAppender.
  *
  *   ISBNHyphenAppender is free software: you can redistribute it and/or modify
@@ -26,7 +24,7 @@ import java.util.Arrays;
  * Appends hyphens to ISBN-10 and ISBN-13 without hyphens.
  *
  * @author Francisco Sariego Rodríguez
- * @version $Revision$ $Id$
+ * @version 1.0.0-20171031
  */
 public class ISBNHyphenAppender {
 
