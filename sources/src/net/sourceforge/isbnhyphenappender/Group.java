@@ -24,13 +24,13 @@ package net.sourceforge.isbnhyphenappender;
  * Each group is based in the information on
  * https://www.isbn-international.org/export_rangemessage.xml
  * <p>
- * Updated to: {@code 71b38f2e-2877-4b84-95b1-e4856be5a0bb}
- * {@code (Tue, 31 Oct 2017 18:12:28 CET)}
+ * Updated to: {@code e545e4ae-216e-4803-a74f-c96c7736df8d}
+ * {@code (Wed, 15 Nov 2017 13:30:29 CET)}
  *
  * @see
  * <a href="https://www.isbn-international.org/export_rangemessage.xml">https://www.isbn-international.org/export_rangemessage.xml</a>
  * @author Francisco Sariego Rodríguez
- * @version 1.0.0-20171031
+ * @version 1.0.0-20171126
  */
 public enum Group {
 
@@ -264,7 +264,10 @@ public enum Group {
      *       00 - 09
      *      100 - 499
      *     5000 - 8999
-     *    90000 - 99999</pre>
+     *    90000 - 98679
+     *     9868 - 9929
+     *      993 - 995
+     *    99600 - 99999</pre>
      * <p>
      * Maximum length: 5
      */
@@ -272,7 +275,10 @@ public enum Group {
         {"00", "09"},
         {"100", "499"},
         {"5000", "8999"},
-        {"90000", "99999"},}, 5),
+        {"90000", "98679"},
+        {"9868", "9929"},
+        {"993", "995"},
+        {"99600", "99999"},}, 5),
     /**
      * Group: 978-601 - Kazakhstan.
      * <p>
@@ -1953,6 +1959,29 @@ public enum Group {
         {"550", "799"},
         {"8000", "9499"},
         {"95000", "99999"},}, 5),
+    /**
+     * Group: 978-9921 - Kuwait.
+     * <p>
+     * Valid publisher ranges:
+     * <pre>
+     *        0 - 0
+     *  1000000 - 2999999
+     *       30 - 39
+     *  4000000 - 6999999
+     *      700 - 899
+     *  9000000 - 9699999
+     *     9700 - 9999</pre>
+     * <p>
+     * Maximum length: 4
+     */
+    _9789921(9789921, new String[][]{
+        {"0", "0"},
+        {"1000000", "2999999"},
+        {"30", "39"},
+        {"4000000", "6999999"},
+        {"700", "899"},
+        {"9000000", "9699999"},
+        {"9700", "9999"},}, 4),
     /**
      * Group: 978-9922 - Iraq.
      * <p>
@@ -4040,14 +4069,16 @@ public enum Group {
      * <pre>
      *        0 - 1
      *       20 - 79
-     *      800 - 999</pre>
+     *      800 - 939
+     *       94 - 99</pre>
      * <p>
      * Maximum length: 3
      */
     _97899957(97899957, new String[][]{
         {"0", "1"},
         {"20", "79"},
-        {"800", "999"},}, 3),
+        {"800", "939"},
+        {"94", "99"},}, 3),
     /**
      * Group: 978-99958 - Bahrain.
      * <p>
@@ -4163,16 +4194,16 @@ public enum Group {
      * Valid publisher ranges:
      * <pre>
      *        0 - 2
-     *      300 - 379
-     *       38 - 62
+     *      300 - 359
+     *       36 - 62
      *      630 - 999</pre>
      * <p>
      * Maximum length: 3
      */
     _97899965(97899965, new String[][]{
         {"0", "2"},
-        {"300", "379"},
-        {"38", "62"},
+        {"300", "359"},
+        {"36", "62"},
         {"630", "999"},}, 3),
     /**
      * Group: 978-99966 - Kuwait.

@@ -2,7 +2,13 @@
 ISBN Hyphen Appender - CHANGELOG
 ================================
 
-$Id$
+================================
+1.0.0-20171126 RELEASE
+================================
+
+* Updated the groups information to serial version
+  e545e4ae-216e-4803-a74f-c96c7736df8d of RangeMessage.xml
+  (Wed, 15 Nov 2017 13:30:29 CET)
 
 ================================
 2017-10-01 RELEASE
