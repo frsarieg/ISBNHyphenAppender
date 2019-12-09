@@ -3,6 +3,14 @@ ISBN Hyphen Appender - CHANGELOG
 ================================
 
 ================================
+1.0.0-20191227 RELEASE
+================================
+
+* Updated the groups information to serial version
+  1d126b78-53aa-481e-8a21-a3cfd6065ec5 of RangeMessage.xml
+  (Thu, 5 Dec 2019 10:50:47 CET)
+
+================================
 1.0.0-20171126 RELEASE
 ================================
 
